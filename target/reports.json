@@ -1,0 +1,158 @@
+[
+  {
+    "line": 7,
+    "elements": [
+      {
+        "line": 11,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 39005277100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "que acesso o aplicativo",
+            "match": {
+              "location": "MobileLogin.queAcessoOAplicativo()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-18T19:27:23.630Z",
+        "line": 15,
+        "name": "CY0001 Faco um cadastro no formulario",
+        "description": "",
+        "id": "automacao-mobile;cy0001-faco-um-cadastro-no-formulario",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 549183200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clico no formulario",
+            "match": {
+              "location": "FormularioStepsDefinitions.clicoNoFormulario()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1140300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "valido o layout",
+            "match": {
+              "location": "FormularioStepsDefinitions.validoOLayout()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1089110100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "insiro um nome",
+            "match": {
+              "location": "FormularioStepsDefinitions.insiroUmNome()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1775540700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "seleciono o combo",
+            "match": {
+              "location": "FormularioStepsDefinitions.selecionoOCombo()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 788412200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "clico no checkbox",
+            "match": {
+              "location": "FormularioStepsDefinitions.clicoNoCheckbox()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 530618900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "clico no switch",
+            "match": {
+              "location": "FormularioStepsDefinitions.clicoNoSwitch()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 677834200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "clico em salvar",
+            "match": {
+              "location": "FormularioStepsDefinitions.clicoEmSalvar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1366520200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "valido o resultado",
+            "match": {
+              "location": "FormularioStepsDefinitions.validoOResultado()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MobileFeature"
+          },
+          {
+            "name": "@CY0001"
+          }
+        ]
+      }
+    ],
+    "name": "Automacao Mobile",
+    "description": "\tEu, como estudande da automacao mobile\n\t\tdesejo realizar uma navegacao no aplicativo TApp",
+    "id": "automacao-mobile",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/java/features/Mobile.feature",
+    "tags": [
+      {
+        "name": "@MobileFeature",
+        "type": "Tag",
+        "location": {
+          "line": 6,
+          "column": 2
+        }
+      }
+    ]
+  }
+]
